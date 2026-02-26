@@ -1,225 +1,339 @@
-<!DOCTYPE html>
-<html lang="pt"> 
-<head>
-    <title>Maikon Ferreira</title>
-    
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/images/favicon.png"> 
-    
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    
-    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
-	
-    <link id="theme-style" rel="stylesheet" href="assets/css/main.css">
-</head> 
+<!doctype html>
+<html lang="pt">
+  <head>
+    <title>Maikon Ferreira — Desenvolvedor Android</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/resume.css" />
+  </head>
+  <body>
+    <article class="resume">
+      <!-- ===== HEADER ===== -->
+      <header class="resume-header">
+        <div class="header-main">
+          <h1 class="header-name">Maikon Ferreira</h1>
+          <p class="header-title">Desenvolvedor Android</p>
+          <ul class="header-contact">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 2-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"
+                />
+              </svg>
+              <a href="mailto:shoeimx@gmail.com">shoeimx@gmail.com</a>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24 11.36 11.36 0 0 0 3.58.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.36 11.36 0 0 0 .57 3.58 1 1 0 0 1-.24 1.01l-2.2 2.2z"
+                />
+              </svg>
+              <a href="tel:+14384589932">+1 438 458 9932</a>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"
+                />
+              </svg>
+              Toronto, ON, Canadá
+            </li>
+          </ul>
+        </div>
+        <nav class="header-links">
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/maikon-ferreira/"
+                target="_blank"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"
+                  />
+                </svg>
+                linkedin.com/in/maikon-ferreira
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/maikkkko1" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"
+                  />
+                </svg>
+                github.com/maikkkko1
+              </a>
+            </li>
+            <li>
+              <a href="https://maikkkko1.github.io" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"
+                  />
+                </svg>
+                maikkkko1.github.io
+              </a>
+            </li>
+          </ul>
+          <div class="lang-switch">
+            <a href="index.html">English</a>
+          </div>
+        </nav>
+      </header>
 
-<body>	
-    <article class="resume-wrapper text-center position-relative">
-	    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
-		    <header class="resume-header pt-4 pt-md-0">
-			    <div class="media flex-column flex-md-row">
-				    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
-					    <div class="primary-info">
-						    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Maikon Ferreira</h1>
-						    <div class="title mb-3">Full Stack Developer</div>
-						    <ul class="list-unstyled">
-							    <li class="mb-2"><a href="#"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>me@maikonferreira.tech</a></li>
-								<li><a href="#"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>+55 51 9 8031-6522</a></li>
-								<li class="mt-2"><a href="#"><i class="fas fa-location-arrow fa-fw mr-2" data-fa-transform="grow-6"></i>Santa Cruz do Sul, RS - Brasil</a></li>
-						    </ul>
-					    </div>
-					    <div class="secondary-info ml-md-auto mt-2">
-						    <ul class="resume-social list-unstyled">
-				                <li class="mb-3"><a href="https://www.linkedin.com/in/maikon-ferreira/" target="_blank"><span class="fa-container text-center mr-2"><i class="fab fa-linkedin-in fa-fw"></i></span>https://www.linkedin.com/in/maikon-ferreira/</a></li>
-				                <li class="mb-3"><a href="https:/github.com/maikkkko1" target="_blank"><span class="fa-container text-center mr-2"><i class="fab fa-github-alt fa-fw"></i></span>github.com/maikkkko1</a></li>
-				                <li><a href="https:/maikkkko1.github.io" target="_blank"><span class="fa-container text-center mr-2"><i class="fas fa-globe"></i></span>maikkkko1.github.io</a></li>
-								<li onclick="window.location.href = '/'" class="mt-5 float-right" style="cursor: pointer;"><img src="assets/images/eua.png" alt="English"></li>
-							</ul>
-					    </div>
-					    
-				    </div>
-			    </div>
-		    </header>
-		    <div class="resume-body p-5">
-			    <div class="row">
-				    <div class="col-lg-9">
-					    <section class="resume-section experience-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Experiências de Trabalho</h2>
-						    <div class="resume-section-content">
-							    <div class="resume-timeline position-relative">
-									<article class="resume-timeline-item position-relative pb-5">
-									    
-									    <div class="resume-timeline-item-header mb-2">
-										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Android Software Developer</h3>
-												<div class="resume-company-name ml-auto font-weight-bold"><a  
-													target="_blank" href="https://www.unicred.com.br/home">Unicred</a></div>
-										    </div>
-										    <div class="resume-position-time">2020/05 - Atualmente</div>
-									    </div>
-									    <div class="resume-timeline-item-desc">
-											<p>Atualmente trabalhando na equipe mobile Android, no desenvolvimento do principal aplicativo bancário da 
-												empresa que possui funcionalidades como transferências, pagamentos, biometria e muitas outras.</p>
+      <!-- ===== BODY ===== -->
+      <div class="resume-body">
+        <!-- ---- Coluna Principal ---- -->
+        <main class="main-col">
+          <!-- Resumo -->
+          <section class="summary-section">
+            <h2 class="section-title">Resumo Profissional</h2>
+            <p class="summary-text">
+              Desenvolvedor Android com mais de 8 anos de experiência
+              profissional construindo aplicações mobile de alta qualidade em
+              Kotlin e Java. Histórico comprovado em grandes empresas de
+              tecnologia como Square (Block, Inc.) e agências dinâmicas como
+              Guarana Technologies, entregando soluções escaláveis para gestão
+              de estoque, fintech e produtos para consumidores. Experiência em
+              entregar funcionalidades em escala nos domínios de varejo,
+              restaurantes e fintech, com forte foco em arquitetura limpa e
+              testes automatizados.
+            </p>
+          </section>
 
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Tecnologias utilizadas:</h4>
-										    <ul class="list-inline">
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Java</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Kotlin</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Injeção de dependência</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Dagger 2</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Butter Knife</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Jenkins</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Firebase</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Mockito</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Espresso</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">JUnit</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Git</span></li>
-										    </ul>
-									    </div>
+          <!-- Experiência Profissional -->
+          <section class="experience-section">
+            <h2 class="section-title">Experiência Profissional</h2>
+            <div class="experience-list">
+              <!-- Square -->
+              <article class="experience-item">
+                <div class="exp-header">
+                  <span class="exp-role">Desenvolvedor Android</span>
+                  <span class="exp-company"
+                    ><a href="https://squareup.com" target="_blank"
+                      >Square (Block, Inc.)</a
+                    ></span
+                  >
+                </div>
+                <div class="exp-meta">
+                  Toronto, Canadá &middot; Dez 2022 — Presente
+                </div>
+                <div class="exp-desc">
+                  <p>
+                    Desenvolvimento de funcionalidades complexas nos produtos
+                    <strong>Square for Retail</strong>,
+                    <strong>Square for Restaurants</strong> e na plataforma de
+                    <strong>Catálogo &amp; Inventário</strong>, atendendo
+                    milhares de vendedores globalmente.
+                  </p>
+                </div>
+                <ul class="exp-bullets">
+                  <li>
+                    Projetei e implementei recebimento de estoque, gestão de
+                    ordens de compra e dashboards de visão geral do estoque para
+                    o Square for Retail.
+                  </li>
+                  <li>
+                    Desenvolvi funcionalidades de disponibilidade de itens para
+                    o Square for Restaurants, permitindo que vendedores
+                    gerenciem a visibilidade dos itens do menu em tempo real.
+                  </li>
+                  <li>
+                    Implementei sincronização de catálogo com suporte offline
+                    robusto, garantindo consistência de dados em dispositivos
+                    com conectividade intermitente.
+                  </li>
+                  <li>
+                    Desenvolvi a funcionalidade de contagem de estoque,
+                    permitindo que vendedores realizem contagens totais e
+                    parciais de inventário de forma eficiente.
+                  </li>
+                  <li>
+                    Desenvolvi funcionalidades de impressão de etiquetas para
+                    otimizar a organização do inventário.
+                  </li>
+                  <li>
+                    Colaboração cross-funcional com equipes de produto, design e
+                    backend para integrações contínuas.
+                  </li>
+                </ul>
+              </article>
 
-								    </article>
+              <!-- Guarana -->
+              <article class="experience-item">
+                <div class="exp-header">
+                  <span class="exp-role">Desenvolvedor Android</span>
+                  <span class="exp-company"
+                    ><a
+                      href="https://www.guarana-technologies.com/"
+                      target="_blank"
+                      >Guarana Technologies</a
+                    ></span
+                  >
+                </div>
+                <div class="exp-meta">
+                  Montreal, Canadá &middot; Jan 2021 — Dez 2022
+                </div>
+                <div class="exp-desc">
+                  <p>
+                    Liderança no desenvolvimento Android completo para múltiplos
+                    clientes startup em ambiente ágil.
+                  </p>
+                </div>
+                <ul class="exp-bullets">
+                  <li>
+                    Arquitetei e desenvolvi aplicações Android do zero,
+                    adaptadas aos requisitos de cada startup.
+                  </li>
+                  <li>
+                    Desenvolvi sistemas de mensageria em tempo real e
+                    notificações usando WebSockets e Firebase Cloud Messaging.
+                  </li>
+                  <li>
+                    Integrei gateways de pagamento e APIs de terceiros para
+                    funcionalidades de e-commerce e assinaturas.
+                  </li>
+                  <li>
+                    Construí pipelines de CI/CD e suítes de testes automatizados
+                    para garantir releases rápidos e confiáveis.
+                  </li>
+                  <li>
+                    Colaboração direta com clientes para iterar nas
+                    funcionalidades e melhorar a usabilidade.
+                  </li>
+                </ul>
+              </article>
 
-								    <article class="resume-timeline-item position-relative pb-5">
-									    
-									    <div class="resume-timeline-item-header mb-2">
-										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Fullstack Software Developer</h3>
-												<div class="resume-company-name ml-auto font-weight-bold"><a  
-													target="_blank" href="https://www.imply.com/pt/">Imply Tecnologia / Eleven Tickets</a></div>
-										    </div>
-										    <div class="resume-position-time">2018/12 - 2020/05</div>
-									    </div>
-									    <div class="resume-timeline-item-desc">
-										    <h6>O que eu fiz aqui?</h6>
+              <!-- Unicred -->
+              <article class="experience-item">
+                <div class="exp-header">
+                  <span class="exp-role">Desenvolvedor Android</span>
+                  <span class="exp-company"
+                    ><a href="https://www.unicred.com.br/home" target="_blank"
+                      >Unicred</a
+                    ></span
+                  >
+                </div>
+                <div class="exp-meta">Brasil &middot; Mai 2020 — Jan 2021</div>
+                <div class="exp-desc">
+                  <p>
+                    Aprimoramento da arquitetura do principal aplicativo
+                    bancário da Unicred, usado por milhares de cooperados.
+                  </p>
+                </div>
+                <ul class="exp-bullets">
+                  <li>
+                    Desenvolvi o módulo de pagamento instantâneo Pix,
+                    implementando o fluxo completo desde o cadastro de chaves
+                    até transferências em tempo real.
+                  </li>
+                  <li>
+                    Implementei autenticação biométrica e camadas de segurança
+                    para operações bancárias sensíveis.
+                  </li>
+                  <li>
+                    Desenvolvi funcionalidades de pagamento de boletos e
+                    transferências com atualização de saldo em tempo real.
+                  </li>
+                  <li>
+                    Liderei a modularização do app, melhorando tempos de build e
+                    possibilitando desenvolvimento paralelo de features.
+                  </li>
+                  <li>
+                    Otimização de performance e escalabilidade para cenários de
+                    alta concorrência.
+                  </li>
+                  <li>
+                    Trabalho com equipes cross-funcionais para atender padrões
+                    de compliance regulatório.
+                  </li>
+                </ul>
+              </article>
 
-											<p class="mt-4"><strong>Aplicações mobile</strong></p>
+              <!-- Eleven Tickets -->
+              <article class="experience-item">
+                <div class="exp-header">
+                  <span class="exp-role">Desenvolvedor Fullstack</span>
+                  <span class="exp-company"
+                    ><a href="https://www.imply.com/engb/" target="_blank"
+                      >Eleven Tickets</a
+                    ></span
+                  >
+                </div>
+                <div class="exp-meta">Brasil &middot; Jan 2019 — Mai 2020</div>
+                <div class="exp-desc">
+                  <p>
+                    Entrega de soluções completas para plataforma de ingressos
+                    atendendo grandes eventos brasileiros.
+                  </p>
+                </div>
+                <ul class="exp-bullets">
+                  <li>
+                    Desenvolvi aplicativo de carteira virtual híbrido (Ionic /
+                    React Native) para armazenamento de ingressos via QR Code e
+                    deep linking.
+                  </li>
+                  <li>
+                    Criei aplicações Android com NFC para transações cashless em
+                    eventos e escolas, processando milhares de transações
+                    diárias.
+                  </li>
+                  <li>
+                    Desenvolvi app Android nativo de PDV para venda rápida de
+                    ingressos e impressão on-site em filas de eventos de alto
+                    tráfego.
+                  </li>
+                  <li>
+                    Construí plataformas de e-commerce com Vue.js e PHP para
+                    vendas de ingressos, incluindo a vitrine da Copa América
+                    2019.
+                  </li>
+                  <li>
+                    Integrei Firebase Cloud Messaging para notificações push em
+                    tempo real e atualizações de eventos.
+                  </li>
+                </ul>
+              </article>
+            </div>
+          </section>
+        </main>
 
-											<p><strong>Aplicação de carteira virtual</strong> - Definição e desenvolvimento completo de um aplicativo hibrido de wallet, utilizado para armazenar os ingressos gerados pelo software de venda de ingressos da empresa. O aplicativo foi desenvolvido primeiramente utilizando Ionic 4 e posteriormente reescrito usando React Native. Armazena tickets na carteira lendo o QRCode ou usando Deeplink, possui integração com o Firebase Cloud Message e outras funcionalidades interessantes.</p>
+        <!-- ---- Barra Lateral ---- -->
+        <aside class="side-col">
+          <!-- Formação -->
+          <section class="side-section">
+            <h2 class="section-title">Formação</h2>
+            <div class="edu-item">
+              <div class="edu-degree">
+                Análise e Desenvolvimento de Sistemas
+              </div>
+              <div class="edu-school">Universidade do Norte do Paraná</div>
+              <div class="edu-time">2018 — 2021</div>
+            </div>
+          </section>
 
-											<p><strong>Aplicação de venda de ingressos</strong> - Definição e desenvolvimento completo de um aplicativo Android nativo utilizado por operadores treinados para realizar a venda e impressão rápida de ingressos em filas de eventos, estacionamentos e outros locais onde existem filas para compra de ingressos. </p>
-
-											<p><strong>Aplicação Cashless (contactless)</strong> - Definição e desenvolvimento completo de um complexo aplicativo Android (Java) nativo usado por milhares de pessoas em vários eventos, escolas e outros lugares. O aplicativo é responsável por realizar transações usando cartão / pulseira através da tecnologia NFC / RFID (Mifare) integrada por hardware, utiliza módulos de impressão e outros..</p>
-
-											<p class="mt-4"><strong>Aplicações web</strong></p>
-
-											<p><strong>Aplicação front end e-commerce</strong> - Desenvolvimento de um e-commerce para o Bondinho Pão de Açucar, utilizado por milhares de pessoas diariamente para realizar a compra de bilhetes de passeios. A aplicação foi desenvolvida utilizando Vue.js e Nuxt.js com um back end escrito em PHP.</p>
-
-											<p><strong>Front end Copa América 2019</strong> - Desenvolvimento do layout de front end utilizado para venda de ingressos na Copa América 2019 utilizando AngularJS.</p>
-
-											<p><strong>Aplicação de venda de ingressos</strong> - Desenvolvimento de novas funcionalidades e manutenção de um software de venda de ingressos (PHP) utilizado por milhares de pessoas diariamente, responsável pela venda de ingressos de equipes de futebol brasileiras como Flamengo, Grêmio, Internacional e outros. Também utilizado para venda de ingressos na Copa América 2019 e outros eventos.</p>
-					
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Tecnologias utilizadas:</h4>
-										    <ul class="list-inline">
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Node.js</span></li>
-                                                                                          <li class="list-inline-item"><span class="badge badge-primary badge-pill">ReactJS</span></li>
-                                                                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">React Native</span></li>
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">AngularJS</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Angular 6-8</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Vue.js</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Nuxt.js</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Ionic</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">PHP</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Java - Android</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">RFID/NFC</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Mockito</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Espresso</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">JUnit</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">PostgreSQL</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">SQLite</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Git</span></li>
-										    </ul>
-									    </div>
-
-								    </article>
-								    
-								    <article class="resume-timeline-item position-relative pb-5">
-									    
-									    <div class="resume-timeline-item-header mb-2">
-										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Fullstack Web Developer</h3>
-										        <div class="resume-company-name ml-auto font-weight-bold"><a  
-													target="_blank" href="https://www.logycware.com/pt-br/">Logycware Sistemas</a></div>
-										    </div>
-										    <div class="resume-position-time">2018/05 - 2018/11</div>
-									    </div>
-									    <div class="resume-timeline-item-desc">
-										    <p>
-												Eu estava trabalhando na transição de um sistema antigo baseado em Delphi para um aplicativo Web, usando PHP (Laravel) e AngularJS.
-											</p>
-			
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Tecnologias utilizadas:</h4>
-										    <ul class="list-inline">
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Material</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">PHP</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">PHPUnit</span></li>
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Laravel</span></li>
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">AngularJS</span></li>
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Firebird</span></li>
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Delphi</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Git</span></li>
-										    </ul>
-									    </div>
-
-								    </article>
-						
-								    <article class="resume-timeline-item position-relative pb-5">
-									    
-									    <div class="resume-timeline-item-header mb-2">
-										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">TI</h3>
-										        <div class="resume-company-name ml-auto">CS Informática</div>
-										    </div>
-										    <div class="resume-position-time">2018/01 - 2018/05</div>
-									    </div>
-									    <div class="resume-timeline-item-desc">
-										    <p>Trabalhando em uma área mais de suporte e infraestrutura, minha vida cotidiana era basicamente oferecer suporte a hardware e
-												executar a configuração e implementação de novas infra-estruturas (servidores, computadores, redes ...).
-											</p>
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Tecnologias utilizadas:</h4>
-										    <ul class="list-inline">
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Debian</span></li>
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Ubuntu </span></li>
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">CentOS</span></li>
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Windows</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Office</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">SQL Server</span></li>
-										    </ul>
-									    </div>
-								    </article>
-								</div>		    
-							</div>
-					    </section>
-				    </div>
-				    <div class="col-lg-3">
-					    <section class="resume-section education-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Educação</h2>
-						    <div class="resume-section-content">
-							    <ul class="list-unstyled">
-								    <li class="mb-2">
-								        <div class="resume-degree font-weight-bold">Superior em Análise e Desenvolvimento de Sistemas</div>
-								        <div class="resume-degree-org">Universidade do Norte do Paraná</div>
-								        <div class="resume-degree-time">2018 - 2021</div>
-								    </li>
-							    </ul>
-						    </div>
-					    </section>
-					    <section class="resume-section language-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Idiomas</h2>
-						    <div class="resume-section-content">
-							    <ul class="list-unstyled resume-lang-list">
-								    <li class="mb-2"><span class="resume-lang-name font-weight-bold">Português</span> <small class="text-muted font-weight-normal">(Nativo)</small></li>
-								    <li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">Inglês</span> <small class="text-muted font-weight-normal">(Profissional)</small></li>
-							    </ul>
-						    </div>
-					    </section>
-				    </div>
-			    </div>
-		    </div>
-	    </div>
-    </article>  
-
-</body>
-</html> 
-
+          <!-- Idiomas -->
+          <section class="side-section">
+            <h2 class="section-title">Idiomas</h2>
+            <ul class="lang-list">
+              <li>
+                <span class="lang-name">Português</span>
+                <span class="lang-level">Nativo</span>
+              </li>
+              <li>
+                <span class="lang-name">Inglês</span>
+                <span class="lang-level">Fluente</span>
+              </li>
+            </ul>
+          </section>
+        </aside>
+      </div>
+    </article>
+  </body>
+</html>
